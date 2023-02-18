@@ -1,0 +1,153 @@
+<HTML>
+    <HEAD>
+        <title>Meu 1° HTMl</title>
+    </HEAD>
+    <BODY bgcolor="#66ffff">
+        <center>
+            <!-- Aprendendo a formatar texto em html -->
+            <font face="tahoma" siza="14" color="#cc0000">
+                <b><i><u>FORMATACAO DE TEXTO</u></i></b>
+            </font>
+            <br><br>
+            <h1>Cotuca</h1>
+            <h2>Colegio tecnico da Unicamp</h2>
+            <h3>Campinas, 17 de fevereiro de 2023</h3>
+            <h4>Curso Tecnico de campinas</h4>
+            <h5>Curso Noturno de des Internet I</h5>
+            <hr color="#ffff00" width="80%" size="10">
+            <br>    
+            <!-- colocar figuras e links na pagina -->
+            <font face="arial" size="16" color="#cc0000">
+                <b><i><u>COLOCANDO IMAGEM e LINK NA PAGINA</u></i></b>
+            </font>
+            <br><br>
+            <a href="http://www.cacaushow.com.br">
+                <img src="./figuras/chocolates.jpg" width="40%" height="200" border="10">
+            </a>
+            <br><br>
+            <font face="arial" size="16" color="#cc0000">
+                <b><i><u>APRENDENDO A FAZER LISTAS</u></i></b>
+            </font>
+        </center>
+            <br><br>
+            <!-- LISTA ORDENADA -->
+            <ol type="1">
+                <li>Programacao Visual
+                    <ol type="a">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>.NET Core</li>
+                    </ol>
+                </li>
+                <br><br>
+                <li>Programacao Web
+                    <ol type="I">
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>NODEJS</li>
+                        <li>LUA</li>
+                    </ol>
+                </li>
+                <br><br>
+                <li>Programacao Mobile
+                    <ol type="A">
+                        <li>Android</li>
+                        <li>Swift</li>
+                    </ol>
+                </li>
+                <li>Programacao Arduino</li>
+            </ol>
+            <br><br>
+            <!-- LISTA NAO ORDENADA -->
+            <ul type="circle">
+                <li>Sao Paulo
+                    <ul type="square">
+                        <li>Campinas</li>
+                        <li>Guarulhos</li>
+                        <li>Vinhedo</li>
+                    </ul>
+                </li>
+                <li>Minas Gerais
+                    <ul type="square">
+                        <li>Belo Horizonte</li>
+                        <li>Uberlandia</li>
+                    </ul>
+                </li>
+                <li>Santa Catarina
+                    <ul type="disc">
+                        <li>Joinville</li>
+                        <li>Blumanau</li>
+                        <li>Floripa</li>
+                    </ul>
+                </li>
+            </ul>
+            <br><br>
+            <font face="arial" size="16" color="#cc0000">
+                <b><i><u>APRENDENDO A FAZER LISTAS</u></i></b>
+            </font>
+            <br><br>
+            <!--TR linhas  TD colunas-->
+            <table aling="center" bgcolor="#ffff00" border="5" cellpadding="10" cellspacing="5">
+                <th colspan="5">ALUNOS DO CURSO DE INFORMATICA</th>
+                <tr align="center">
+                    <th rowspan="4">Tec info NOT</th>
+                    <td>RA</td>
+                    <td>NOME</td>
+                    <td>NOTA TP I</td>
+                    <td>DES INT I</td>
+                </tr>
+                <tr align="center">
+                    <td>23457</td>
+                    <td>Natalli</td>
+                    <td>10,0</td>
+                    <td>7,0</td>
+                </tr>
+                <tr align="center">
+                    <td>23460</td>
+                    <td>Gustavo</td>
+                    <td>9,9</td>
+                    <td>9,8</td>
+                </tr>
+                <tr align="center">
+                    <td>23420</td>
+                    <td>Igor</td>
+                    <td>9,9</td>
+                    <td>9,8</td>
+                </tr>
+            </table>
+            <!--cellpadding aumenta o tamanho da celula, cellspacing aumenta o espacamento entre as celulas -->
+            <br><br>
+            <font face="arial" size="16" color="#cc0000">
+                <b><i><u>APRENDENDO A FAZER LISTAS</u></i></b>
+            </font>
+            <form name="frmCadastro" method="post" action="#">
+                <table align="center" border="0" width="70%">
+                    <tr>
+                        <td>RA</td>
+                        <td><input type="text" name="txtRA" size="6" maxlength="6"></td>
+                    </tr>
+                    <tr>
+                        <td>NOME</td>
+                        <td><input type="text" name="NOME" size="6" maxlength="50"></td>
+                    </tr>
+                    <tr>
+                        <td>CiDADE NATAL</td>
+                        <td>
+                            <input type="radio" name="rd_cidade" value="Campinas">Campinas
+                            <input type="radio" name="rd_cidade" value="Valinhos">Valinhos
+                            <input type="radio" name="rd_cidade" value="Vinhedo">Vinhedo
+                        </td>
+                        <td>ESPORTE PREFERIDO</td>
+                        <td>
+                            <input type="checkbox" name="cb_Esp" value="Futebol">Futebol
+                            <input type="checkbox" name="cb_Esp" value="Natacao">Natacao
+                            <input type="checkbox" name="cb_Esp" value="Volei">Volei
+                            <input type="checkbox" name="cb_Esp" value="Basquete">Basquete
+                            <input type="checkbox" name="cb_Esp" value="SKI">SKI
+                            <input type="checkbox" name="cb_Esp" value="Xadrez">Xadrez
+                        </td> 
+                    </tr>
+                </table>
+            </form>   
+    </BODY>
+</HTML>
